@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void fun(int indx,vector<int>&ds,vector<vector<int>>&ans,vector<int>&candidates,int target){
+    void fun(int indx,vector<int>&ds,vector<vector<int>>&ans,vector<int>candidates,int target){
         if(indx==candidates.size()){
             if(target==0){
                 ans.push_back(ds);
